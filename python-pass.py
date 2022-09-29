@@ -21,4 +21,4 @@ for i in students.keys():
     if students[i] == 'Class 3':
         d[students[i]].append(i)
 
-print(isolate(d))
+print(isolate(students))
